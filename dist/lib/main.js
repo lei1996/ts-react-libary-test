@@ -1,5 +1,5 @@
-"use strict";
 console.log(1);
-const Absdd = () => {
-};
+const Absdd = (data) => { };
+export { Absdd };
+// Absdd({aaa:1, })
 //# sourceMappingURL=main.js.map
