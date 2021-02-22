@@ -10,10 +10,10 @@
     "eject": "node ../../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
-    "ts-react-libray-test": "file:../..",
     "react": "file:../../node_modules/react",
     "react-dom": "file:../../node_modules/react-dom",
-    "react-scripts": "file:../../node_modules/react-scripts"
+    "react-scripts": "file:../../node_modules/react-scripts",
+    "ts-react-libray-test": "file:../.."
   },
   "browserslist": [
     ">0.2%",

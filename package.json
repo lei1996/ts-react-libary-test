@@ -2,7 +2,8 @@
   "name": "ts-react-libray-test",
   "version": "1.0.0",
   "description": "",
-  "main": "src/main.ts",
+  "main": "dist/src/main.js",
+  "typings": "./dist/src/main.d.ts",
   "scripts": {
     "build": "rimraf dist && npx tsc"
   },
@@ -14,6 +15,8 @@
     "@linaria/core": "^3.0.0-beta.1",
     "@linaria/react": "^3.0.0-beta.1",
     "@linaria/shaker": "^3.0.0-beta.1",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "^4.0.2",
