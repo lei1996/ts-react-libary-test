@@ -1,8 +1,7 @@
 import React from "react";
+import { useSpring, animated } from "react-spring";
 export const Button = (data) => {
-    return React.createElement("div", null,
-        data.asd,
-        "\u8FD9\u91CC\u662F\u81EA\u5B9A\u4E49button",
-        data.aaa);
+    const props = useSpring({ opacity: 1, from: { opacity: 0 } });
+    return React.createElement(animated.div, { style: props }, "I will fade in");
 };
 //# sourceMappingURL=index.js.map
